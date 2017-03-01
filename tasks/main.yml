@@ -1,0 +1,5 @@
+---
+
+- name: include platform specific tasks & variables.
+  include: "{{ ansible_distribution }}/main.yml"
+
